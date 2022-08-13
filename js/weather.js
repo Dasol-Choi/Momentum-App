@@ -10,7 +10,7 @@ function onGeoOK(position){
         const city = document.querySelector("#weather span:last-child");
         city.innerText = data.name;
         weather.innerText = `Today's Weather?
-                            ${data.weather[0].main}  ${data.main.temp}`;
+                            ${data.weather[0].main} ${data.main.temp}℃`;
     });
 }
 function onGeoError(){

@@ -26,8 +26,8 @@ img {
 }
 
 #login-form{
-    margin-left: 32%;
-    margin-top: 220px;
+    margin:auto;
+    margin-top: 220px; 
     text-align: center;
 }
 
@@ -53,16 +53,15 @@ img {
 
 #clock{
     text-align: center;
-    left: 43%;
-    right: 43%;
     font-size: 35px;
     color: white;
 }
 
 #todo{
-    position: absolute;
+    position:absolute;
     top: 70px;
-    left: 950px;
+    left: 75%;
+;
 }
 
 #todo-form input{
